@@ -67,7 +67,7 @@ ALTER TABLE ONLY public.users ALTER COLUMN userid SET DEFAULT nextval('public.us
 --
 
 COPY public.users (userid, email, password) FROM stdin;
-1	doshchanov_alikhan@mail.ru	bd462d5d7e7d5f8416515c6b0f3ed640
+1	doshchanov_alikhan@mail.ru	2af9b1ba42dc5eb01743e6b3759b6e4b
 \.
 
 
